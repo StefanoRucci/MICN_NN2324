@@ -2,10 +2,10 @@
 ## Course: Neural Networks (2023/2024)
 
 ### Project Overview
-This project is based on the implementation and evaluation of the **Multi-scale Isometric Convolution Network (MICN)**, a model presented in the scientific paper ["MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting"](https://github.com/wanghq21/MICN), published at ICLR 2023. The paper proposes a novel approach to time-series forecasting that balances computational efficiency and predictive accuracy by combining local features and global correlations through multi-scale convolutions.
+This project is based on the implementation and evaluation of the **Multi-scale Isometric Convolution Network (MICN)**, a model illustrated in the scientific paper ["MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting"](https://github.com/wanghq21/MICN), published at ICLR 2023. The paper proposes a novel approach to time-series forecasting: it balances computational efficiency and predictive accuracy, by combining local features and global correlations through multi-scale convolutions.
 
 ### Objective
-The objective of this project was to:
+The objective of this project is to:
 1. Model and preprocess the datasets to extract necessary features for training.
 2. Implement the MICN model as described in the paper.
 3. Compare the performance of the MICN model with traditional models such as **ARIMA**, **Support Vector Regression (SVR)**, **LSTM**, and **CNN**.
@@ -24,7 +24,7 @@ The core of the project is the implementation of the **Multi-scale Isometric Con
 The model was implemented following the architecture outlined in the original paper, with hyperparameters tuned to optimize performance on the dataset.
 
 ### Other Models Implemented
-In addition to MICN, several other traditional models were implemented and evaluated for comparison:
+In addition to MICN, other traditional models were implemented and evaluated for comparison:
 - **ARIMA (Auto-Regressive Integrated Moving Average)**: A classic statistical method for time series forecasting.
 - **Support Vector Regression (SVR)**: A machine learning regression model.
 - **LSTM (Long Short-Term Memory)**: A type of recurrent neural network (RNN) well-suited for sequential data.
@@ -41,4 +41,4 @@ The performance of MICN was compared with ARIMA, SVR, LSTM, and CNN models based
 - **ARIMA** and **SVR** performed reasonably well for short-term forecasts but struggled with scalability and accuracy over longer time periods.
 
 ### Conclusions
-This project highlights the effectiveness of the **MICN** model for long-term time series forecasting. Its ability to balance local feature extraction and global pattern recognition while maintaining computational efficiency makes it a promising solution for various real-world forecasting tasks.
+This project highlights the effectiveness of the **MICN** model for long-term time series forecasting. Its ability to balance local feature extraction and global pattern recognition, while maintaining computational efficiency, makes it an optimal solution for various real-world forecasting tasks.
