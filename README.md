@@ -2,7 +2,7 @@
 ## Course: Neural Networks (2023/2024)
 
 ### Project Overview
-This project is based on the implementation and evaluation of the **Multi-scale Isometric Convolution Network (MICN)**, a model illustrated in the scientific paper ["MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting"](https://github.com/wanghq21/MICN), published at ICLR 2023. The paper proposes a novel approach to time-series forecasting: it balances computational efficiency and predictive accuracy, by combining local features and global correlations through multi-scale convolutions.
+This project is based on the implementation and evaluation of the **Multi-scale Isometric Convolution Network (MICN)**, a model illustrated in the scientific paper ["MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting"](https://github.com/wanghq21/MICN), published at ICLR 2023. The paper proposes a new approach to time-series forecasting: it balances computational efficiency and predictive accuracy, by combining local features and global correlations through multi-scale convolutions.
 
 ### Objective
 The objective of this project is to:
