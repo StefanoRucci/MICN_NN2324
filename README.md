@@ -42,9 +42,3 @@ The performance of MICN was compared with ARIMA, SVR, LSTM, and CNN models based
 
 ### Conclusions
 This project highlights the effectiveness of the **MICN** model for long-term time series forecasting. Its ability to balance local feature extraction and global pattern recognition while maintaining computational efficiency makes it a promising solution for various real-world forecasting tasks.
-
-### How to Run
-1. Clone this repository: 
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
